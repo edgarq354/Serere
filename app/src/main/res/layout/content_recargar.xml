@@ -8,7 +8,7 @@
     android:padding="15sp"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:showIn="@layout/activity_recargar"
-    tools:context=".MainActivity">
+    tools:context="com.elisoft.serere.MainActivity">
 
     <pl.droidsonroids.gif.GifImageView
         android:layout_width="match_parent"

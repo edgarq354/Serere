@@ -171,7 +171,7 @@ public class Chat_pedido extends AppCompatActivity {
     private Socket mSocket;
     {
         try {
-            mSocket = IO.socket("http://64.227.10.80:5000/");
+            mSocket = IO.socket("http://35.194.59.205:5000/");
         } catch (URISyntaxException e) {}
     }
 

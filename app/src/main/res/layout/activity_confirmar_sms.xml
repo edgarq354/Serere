@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:ignore="LockedOrientationActivity"
-    tools:context=".registro_inicio_sesion.Confirmar_sms"
+    tools:context="com.elisoft.serere.registro_inicio_sesion.Confirmar_sms"
     >
 
 

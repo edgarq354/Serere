@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:ignore="LockedOrientationActivity"
-    tools:context=".registro_inicio_sesion.Iniciar_sesion">
+    tools:context="com.elisoft.serere.registro_inicio_sesion.Iniciar_sesion">
 
     <FrameLayout
         android:layout_width="match_parent"

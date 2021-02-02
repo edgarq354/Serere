@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".chat.Chat"
+    tools:context="com.elisoft.serere.chat.Chat"
     android:orientation="vertical"
     android:clipToPadding="false"
     android:focusableInTouchMode="true"

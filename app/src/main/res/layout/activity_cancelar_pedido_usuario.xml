@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".Cancelar_pedido_usuario">
+    tools:context="com.elisoft.serere.Cancelar_pedido_usuario">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

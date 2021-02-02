@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/colorTransparente_2"
-    tools:context=".Notificacion_pedido_cancelo"
+    tools:context="com.elisoft.serere.Notificacion_pedido_cancelo"
     tools:showIn="@layout/activity_notificacion_pedido_cancelo">
 
 

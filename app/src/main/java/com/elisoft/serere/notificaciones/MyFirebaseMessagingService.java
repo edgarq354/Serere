@@ -276,7 +276,7 @@ switch (tipo)
         vaciar_toda_la_base_de_datos();
         eliminar_servicio();
 
-        Intent usus1= new Intent(getApplicationContext(),Notificacion.class);
+        Intent usus1= new Intent(getApplicationContext(), Notificacion.class);
         mNotificationManager.notificacion_con_error_activity(title, message, usus1);
 
 

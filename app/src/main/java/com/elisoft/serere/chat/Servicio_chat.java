@@ -53,7 +53,7 @@ public class Servicio_chat extends Service {
     public int onStartCommand(Intent intent, int flags, int startId) {
         Toast.makeText(this, "start command", Toast.LENGTH_SHORT).show();
         try {
-            mSocket = IO.socket("http://64.227.10.80:5000/");
+            mSocket = IO.socket("http://35.194.59.205:5000/");
         } catch (URISyntaxException e) {
             throw new RuntimeException(e);
         }

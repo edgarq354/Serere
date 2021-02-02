@@ -5,7 +5,7 @@
     android:id="@+id/activity_registrar_nombre"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-   tools:context=".registro_inicio_sesion.Registrar_nombre_completo">
+   tools:context="com.elisoft.serere.registro_inicio_sesion.Registrar_nombre_completo">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"

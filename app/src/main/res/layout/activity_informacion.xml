@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".informacion.Informacion">
+    tools:context="com.elisoft.serere.informacion.Informacion">
 
     <LinearLayout
         android:layout_width="match_parent"

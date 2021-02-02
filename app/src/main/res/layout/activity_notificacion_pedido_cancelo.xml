@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Notificacion_pedido_cancelo"
+    tools:context="com.elisoft.serere.Notificacion_pedido_cancelo"
     tools:showIn="@layout/activity_notificacion_pedido_cancelo">
 
     <TextView

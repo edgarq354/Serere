@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Notificacion_mensaje"
+    tools:context="com.elisoft.serere.Notificacion_mensaje"
     android:background="@color/colorTextoBoton"
     tools:showIn="@layout/activity_notificacion_mensaje">
     <TextView

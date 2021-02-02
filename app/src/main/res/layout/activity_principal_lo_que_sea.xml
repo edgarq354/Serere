@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".loquesea.Principal_lo_que_sea">
+    tools:context="com.elisoft.serere.loquesea.Principal_lo_que_sea">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"

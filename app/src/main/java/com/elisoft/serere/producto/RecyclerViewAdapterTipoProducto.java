@@ -9,7 +9,6 @@ import android.widget.TextView;
 
 import com.elisoft.serere.R;
 import com.elisoft.serere.categoria.CCategoria;
-import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 

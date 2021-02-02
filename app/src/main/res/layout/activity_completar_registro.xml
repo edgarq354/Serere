@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".registro_inicio_sesion.Completar_registro">
+    tools:context="com.elisoft.serere.registro_inicio_sesion.Completar_registro">
 
 
     <LinearLayout
