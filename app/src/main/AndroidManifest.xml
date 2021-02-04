@@ -35,65 +35,65 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
-            android:name="com.elisoft.serere.com.elisoft.traigo.mi_perfil.recarga.Lista_recargas"
+            android:name="com.elisoft.serere.mi_perfil.recarga.Lista_recargas"
             android:label="@string/title_activity_lista_recargas"
             android:theme="@style/AppTheme.NoActionBarOscuro">
         </activity>
         <activity
-            android:name="com.elisoft.serere.com.elisoft.traigo.mi_perfil.recarga.Recargar"
+            android:name="com.elisoft.serere.mi_perfil.recarga.Recargar"
             android:label="@string/title_activity_recargar"
             android:theme="@style/AppTheme.NoActionBarOscuro" />
         <activity
-            android:name="com.elisoft.serere.com.elisoft.traigo.loquesea.Buscar_repartidor"
+            android:name="com.elisoft.serere.loquesea.Buscar_repartidor"
             android:label="@string/title_activity_buscar_repartidor"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.elisoft.serere.com.elisoft.traigo.loquesea.Marcar_direccion_cliente"
+            android:name="com.elisoft.serere.loquesea.Marcar_direccion_cliente"
             android:label="@string/title_activity_marcar_drieccion_cliente"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.elisoft.serere.com.elisoft.traigo.loquesea.Marcar_direccion_lugar"
+            android:name="com.elisoft.serere.loquesea.Marcar_direccion_lugar"
             android:label="@string/title_activity_marcar_direccion_lugar"
             android:theme="@style/AppTheme.NoActionBarOscuro" />
         <activity
-            android:name="com.elisoft.serere.com.elisoft.traigo.loquesea.Principal_lo_que_sea"
+            android:name="com.elisoft.serere.loquesea.Principal_lo_que_sea"
             android:label="@string/title_activity_principal_lo_que_sea"
             android:theme="@style/AppTheme.NoActionBarOscuro" />
         <activity
-            android:name="com.elisoft.serere.com.elisoft.traigo.loquesea.QueNecesitas"
+            android:name="com.elisoft.serere.loquesea.QueNecesitas"
             android:label="@string/title_activity_que_necesitas"
             android:theme="@style/AppTheme.NoActionBarOscuro" />
         <activity
-            android:name="com.elisoft.serere.com.elisoft.traigo.Pedido_usuario"
+            android:name="com.elisoft.serere.Pedido_usuario"
             android:label="MI PEDIDO"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="com.elisoft.serere.com.elisoft.traigo.Notificacion_pedido_cancelo"
+            android:name="com.elisoft.serere.Notificacion_pedido_cancelo"
             android:label="@string/title_activity_notificacion_pedido_cancelo" />
         <activity
-            android:name="com.elisoft.serere.com.elisoft.traigo.Notificacion_mensaje"
+            android:name="com.elisoft.serere.Notificacion_mensaje"
             android:screenOrientation="locked"
             android:theme="@style/AppTheme.NoActionBarOscuro"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="com.elisoft.serere.com.elisoft.traigo.Principal_pedido"
+            android:name="com.elisoft.serere.Principal_pedido"
             android:label="@string/title_activity_principal_pedido"
             android:screenOrientation="locked"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="com.elisoft.serere.com.elisoft.traigo.producto.ProductoPrincipal"
+            android:name="com.elisoft.serere.producto.ProductoPrincipal"
             android:label="@string/title_activity_producto_principal"
             android:screenOrientation="locked"
             android:theme="@style/AppTheme.NoActionBarOscuro" />
         <activity
-            android:name="com.elisoft.serere.com.elisoft.traigo.carrito.Detalle_carrito"
+            android:name="com.elisoft.serere.carrito.Detalle_carrito"
             android:label="@string/title_activity_detalle_carrito"
             android:screenOrientation="locked"
             android:theme="@style/AppTheme.NoActionBarOscuro" />
         <activity
-            android:name="com.elisoft.serere.com.elisoft.traigo.Inicio_Activity"
+            android:name="com.elisoft.serere.Inicio_Activity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -103,12 +103,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.elisoft.serere.com.elisoft.traigo.Principal"
+            android:name="com.elisoft.serere.Principal"
             android:label="@string/app_name"
             android:screenOrientation="locked"
             android:theme="@style/AppTheme.NoActionBarDrawer" />
         <activity
-            android:name="com.elisoft.serere.com.elisoft.traigo.producto.Productos"
+            android:name="com.elisoft.serere.producto.Productos"
             android:label="@string/title_activity_productos"
             android:screenOrientation="locked"
             android:theme="@style/AppTheme.NoActionBarOscuro" />
@@ -160,59 +160,59 @@
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="@string/id_AdMob_aplicacion"/>
 
-        <service android:name="com.elisoft.serere.com.elisoft.traigo.notificaciones.MyFirebaseInstanceIdService">
+        <service android:name="com.elisoft.serere.notificaciones.MyFirebaseInstanceIdService">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
-        <service android:name="com.elisoft.serere.com.elisoft.traigo.notificaciones.MyFirebaseMessagingService">
+        <service android:name="com.elisoft.serere.notificaciones.MyFirebaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
 
         <activity
-            android:name="com.elisoft.serere.com.elisoft.traigo.informacion.Informacion"
+            android:name="com.elisoft.serere.informacion.Informacion"
             android:label="Información"
             android:screenOrientation="locked" />
         <activity
-            android:name="com.elisoft.serere.com.elisoft.traigo.registro_inicio_sesion.Registrar_nombre_completo"
+            android:name="com.elisoft.serere.registro_inicio_sesion.Registrar_nombre_completo"
             android:label="Registrar Usuario"
             android:screenOrientation="locked"
             android:theme="@style/AppTheme.NoActionBarOscuro" />
         <activity
-            android:name="com.elisoft.serere.com.elisoft.traigo.registro_inicio_sesion.Completar_registro"
+            android:name="com.elisoft.serere.registro_inicio_sesion.Completar_registro"
             android:label="Completar registro"
             android:screenOrientation="locked"
             android:theme="@style/AppTheme.NoActionBarOscuro" />
         <activity
-            android:name="com.elisoft.serere.com.elisoft.traigo.registro_inicio_sesion.Iniciar_sesion"
+            android:name="com.elisoft.serere.registro_inicio_sesion.Iniciar_sesion"
             android:label="Elige otra cuenta "
             android:screenOrientation="locked"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="com.elisoft.serere.com.elisoft.traigo.registro_inicio_sesion.Autenticar_celular"
+            android:name="com.elisoft.serere.registro_inicio_sesion.Autenticar_celular"
             android:label="Verifica tu número"
             android:screenOrientation="locked"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.elisoft.serere.com.elisoft.traigo.registro_inicio_sesion.Confirmar_sms"
+            android:name="com.elisoft.serere.registro_inicio_sesion.Confirmar_sms"
             android:label="Confirmar Codigo"
             android:screenOrientation="locked"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.elisoft.serere.com.elisoft.traigo.mi_perfil.Confirmar_sms_celular"
+            android:name="com.elisoft.serere.mi_perfil.Confirmar_sms_celular"
             android:label="@string/title_activity_confirmar_sms_celular"
             android:screenOrientation="locked"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.elisoft.serere.com.elisoft.traigo.mi_perfil.Actualizar_celular"
+            android:name="com.elisoft.serere.mi_perfil.Actualizar_celular"
             android:label="@string/title_activity_actualizar_celular"
             android:screenOrientation="locked"
             android:theme="@style/AppTheme.NoActionBarOscuro" />
         <activity
-            android:name="com.elisoft.serere.com.elisoft.traigo.informacion.Pagina"
+            android:name="com.elisoft.serere.informacion.Pagina"
             android:label="@string/title_activity_pagina"
             android:screenOrientation="locked"
             android:theme="@style/AppTheme.NoActionBarOscuro" />
@@ -228,16 +228,16 @@
         </provider>
 
         <activity
-            android:name="com.elisoft.serere.com.elisoft.traigo.Pedido_finalizado_sin_notificacion"
+            android:name="com.elisoft.serere.Pedido_finalizado_sin_notificacion"
             android:label="@string/title_activity_pedido_finalizado_sin_notificacion"
             android:theme="@style/AppTheme.NoActionBarOscuro" />
 
         <service
-            android:name="com.elisoft.serere.com.elisoft.traigo.chat.Servicio_reproducir"
+            android:name="com.elisoft.serere.chat.Servicio_reproducir"
             android:enabled="true"
             android:exported="true" />
         <service
-            android:name="com.elisoft.serere.com.elisoft.traigo.servicio.Servicio_cargar_punto_google"
+            android:name="com.elisoft.serere.servicio.Servicio_cargar_punto_google"
             android:enabled="true"
             android:exported="true" />
 
@@ -270,27 +270,27 @@
             android:value="@string/google_maps_key" />
 
         <service
-            android:name="com.elisoft.serere.com.elisoft.traigo.Servicio_pedido"
+            android:name="com.elisoft.serere.Servicio_pedido"
             android:enabled="true"
             android:exported="true" />
         <service
-            android:name="com.elisoft.serere.com.elisoft.traigo.chat.Servicio_chat"
+            android:name="com.elisoft.serere.chat.Servicio_chat"
             android:enabled="true"
             android:theme="@style/AppTheme.NoActionBarOscuro"
             android:exported="true" />
 
         <activity
-            android:name="com.elisoft.serere.com.elisoft.traigo.Cancelar_pedido_usuario"
+            android:name="com.elisoft.serere.Cancelar_pedido_usuario"
             android:label="Cancelar el pedido"
             android:screenOrientation="locked"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.elisoft.serere.com.elisoft.traigo.Pedido_finalizado"
+            android:name="com.elisoft.serere.Pedido_finalizado"
             android:screenOrientation="locked"
             android:theme="@style/AppTheme.NoActionBarOscuro" />
 
         <service
-            android:name="com.elisoft.serere.com.elisoft.traigo.Servicio_pedir_movil"
+            android:name="com.elisoft.serere.Servicio_pedir_movil"
             android:enabled="true"
             android:exported="true" />
 
@@ -305,58 +305,58 @@
         </provider>
 
         <activity
-            android:name="com.elisoft.serere.com.elisoft.traigo.chat.Chat_pedido"
+            android:name="com.elisoft.serere.chat.Chat_pedido"
             android:label="@string/title_activity_chat"
             android:screenOrientation="locked"
             android:theme="@style/AppTheme.NoActionBarOscuro" />
         <activity
-            android:name="com.elisoft.serere.com.elisoft.traigo.chat.Chat"
+            android:name="com.elisoft.serere.chat.Chat"
             android:label="@string/title_activity_chat"
             android:screenOrientation="locked"
             android:theme="@style/AppTheme.NoActionBarOscuro" />
 
         <service
-            android:name="com.elisoft.serere.com.elisoft.traigo.chat.Servicio_mensaje_recibido"
+            android:name="com.elisoft.serere.chat.Servicio_mensaje_recibido"
             android:enabled="true"
             android:exported="false" />
         <service
-            android:name="com.elisoft.serere.com.elisoft.traigo.chat.Servicio_guardar_mensaje_enviado"
+            android:name="com.elisoft.serere.chat.Servicio_guardar_mensaje_enviado"
             android:exported="false" />
 
         <activity
-            android:name="com.elisoft.serere.com.elisoft.traigo.mi_perfil.Perfil_pasajero"
+            android:name="com.elisoft.serere.mi_perfil.Perfil_pasajero"
             android:label="@string/title_activity_perfil_pasajero"
             android:screenOrientation="locked"
             android:theme="@style/AppTheme.NoActionBarOscuro"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="com.elisoft.serere.com.elisoft.traigo.viajes.Viajes"
+            android:name="com.elisoft.serere.viajes.Viajes"
             android:label="@string/title_activity_viajes"
             android:screenOrientation="locked"
             android:theme="@style/AppTheme.NoActionBarOscuro" />
         <activity
-            android:name="com.elisoft.serere.com.elisoft.traigo.carreras.Carrera"
+            android:name="com.elisoft.serere.carreras.Carrera"
             android:label="@string/title_activity_carrera"
             android:screenOrientation="locked"
             android:theme="@style/AppTheme.NoActionBarOscuro" />
         <activity
-            android:name="com.elisoft.serere.com.elisoft.traigo.Pedido_perfil_taxi"
+            android:name="com.elisoft.serere.Pedido_perfil_taxi"
             android:label="Perfil del Conductor"
             android:screenOrientation="locked"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.elisoft.serere.com.elisoft.traigo.historial_notificacion.Notificacion"
+            android:name="com.elisoft.serere.historial_notificacion.Notificacion"
             android:label="Notificación"
             android:screenOrientation="locked"
             android:theme="@style/AppTheme.NoActionBarOscuro" />
         <activity
-            android:name="com.elisoft.serere.com.elisoft.traigo.Detalle_pedido_delivery"
+            android:name="com.elisoft.serere.Detalle_pedido_delivery"
             android:label="@string/title_activity_detalle_pedido_delivery"
             android:screenOrientation="locked"
             android:theme="@style/AppTheme.NoActionBarOscuro" />
 
         <service
-            android:name="com.elisoft.serere.com.elisoft.traigo.Servicio_descargar_imagen_perfil"
+            android:name="com.elisoft.serere.Servicio_descargar_imagen_perfil"
             android:enabled="true"
             android:exported="true"
             android:screenOrientation="portrait" />

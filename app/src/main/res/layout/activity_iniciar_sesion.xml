@@ -13,10 +13,11 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="0.9"
+        android:background="@color/colorPrimaryDark"
         android:orientation="vertical">
         <ImageView
             android:layout_width="200sp"
-            android:layout_height="70sp"
+            android:layout_height="200sp"
             android:layout_gravity="center|center"
             android:background="@drawable/ic_logo_max"
             />
