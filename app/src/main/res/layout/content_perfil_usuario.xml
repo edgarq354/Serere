@@ -249,6 +249,7 @@
                 android:text="Recargame"
                 android:textAllCaps="false"
                 style="@style/submit_negativo"
+                android:visibility="invisible"
                 android:id="@+id/bt_recargarme"/>
 
         </LinearLayout>
