@@ -105,7 +105,7 @@ public class EmpresaAdapter extends BaseAdapter {
                         Picasso.with(context).load(url_banner).placeholder(R.mipmap.ic_launcher).into(img, new com.squareup.picasso.Callback() {
                             @Override
                             public void onSuccess() {
-                                holder.im_fondo.setBackground(img.getDrawable());
+                               // holder.im_fondo.setBackground(img.getDrawable());
 
                             }
 
