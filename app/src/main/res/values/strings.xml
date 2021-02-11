@@ -24,12 +24,11 @@
     <string name="sql_pedido">Carrito</string>
     <string name="sql_loquesea">loquesea</string>
     <string name="sql_ubicacion">ubicacion</string>
-    <string name="mis_datos">mis_datos</string>
     <string name="home_second">Home Second</string>
 
 
-    <string name="servidor_web">http://35.194.59.205/master/</string>
-    <string name="servidor">http://35.194.59.205/master2/</string>
+    <string name="servidor_web">http://34.67.185.232/sao/</string>
+    <string name="servidor">http://34.67.185.232/sao2/</string>
 
     <string name="GPSAlertDialogTitle">Locatización</string>
     <string name="GPSAlertDialogMessage">El servicio de Localización esta desabilitado</string>
@@ -121,25 +120,29 @@ El permiso de ubicación es necesario para mostrar su ubicación actual, ¿le gu
     <string name="moto">MOTO TAXI-ENCARGO</string>
 
 
-    <string name="whatsapp">+59170007550</string>
+    <string name="whatsapp">+59160949401</string>
+    <string name="telefono">33557070</string>
 
-    <string name="telefono">33467171</string>
     <string name="version_sql">1</string>
 
     <string name="nombre_carpeta">Serere</string>
 
-    <string name="correo">radiomovil.master.norte@gmail.com</string>
-    <string name="pagina">https://www.facebook.com/pg/MasterNorte</string>
-    <string name="direccion">Av. Paragua entre 3ro y 4to anillo C/Lorenzo Davila #3460 Esq. Pedro Galvez</string>
+    <string name="correo">hfls100@msn.com</string>
+    <string name="pagina">http://radiomovilsao.com</string>
+    <string name="facebook">https://www.facebook.com/RadioMovilSao</string>
+    <string name="direccion">Zona La Colorada Calle Taquirari #4060</string>
     <string name="title_activity_opcion_inicio_sesion">Opcion_inicio_sesion</string>
     <string name="title_activity_actualizar_celular">Actualizar # de celular</string>
     <string name="title_activity_confirmar_sms_celular">Confirmar codigo</string>
-    <string name="mensaje_registro">Al dar clic en <b>Siguiente</b> se estará registrado en nuestra base de datos y aceptando los términos y condiciones de uso.</string>
+    <string name="mensaje_registro">Al dar clic en <b>SIGUIENTE</b> se estará registrado en nuestra base de datos y aceptando los términos y condiciones de uso.</string>
+    <string name="mis_datos">mis_datos</string>
+    <string name="detalle1"> Barrio San Lorenzo Calle Taquirari #4060 Zona La Colorada</string>
+    <string name="detalle2">Ser reconocidos como la empresa de taxi que brinda el mejor servicio por la calidad, puntualidad y seguridad; y por las unidades con el mejor estado de conservación. Ofreciendo: Amplia experiencia y conocimientos de las necesidades de los usuarios. Atención personalizada</string>
+    <string name="detalle3">Ofrecer un servicio de taxi a través de una central telefónica con un Call Center Experimentado brindando calidad, puntualidad y seguridad a nuestros clientes satisfaciendo su necesidades de traslado, y estando de la mano con la implementacion de la nuevas tecnología</string>
+    <string name="informacion"></string>
+    <string name="title_activity_carrera_casual">SAO METER</string>
+
     <string name="finalizo">finalizo</string>
-    <string name="detalle1">Ya sea que hayas olvidado una llave en casa o necesites alguna otra cosa, tu solo pide Yo lo Serere, Serere te da facilidad de pedir cualquier cosa que necesites son necesidad de moverte. Elige cuando pedir y donde recibir el pedido.</string>
-    <string name="detalle2">¿Necesitas generar más ganancias aparte de tu trabajo regular? En Serere, como Socio Conductor, tienes la libertad y flexibilidad para conducir cuando quieras. Así, nunca te perderás los momentos importantes de tu vida.</string>
-    <string name="detalle3">Entrenamos a nuestros conductores adecuadamente y hacemos una revisión (incluyendo quejas y reclamos) para asegurarnos de que solo aquellos que tengan las mejores habilidades hagan parte de nuestro equipo.</string>
-    <string name="informacion">Serere es la aplicación de pedidos más descargada. La aplicación conecta a los clientes y conductores, permitiéndoles experimentar una nueva experiencia. Serere está disponible para dispositivos Android</string>
     <string name="title_activity_lugar_empresa">Lugar_empresa</string>
     <string name="large_text"> </string>
     <string name="title_activity_pagina">Pagina</string>

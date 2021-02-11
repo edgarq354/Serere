@@ -1,34 +1,42 @@
 {
   "project_info": {
-    "project_number": "141922124189",
-    "project_id": "third-runway-298721",
-    "storage_bucket": "third-runway-298721.appspot.com"
+    "project_number": "849809861709",
+    "firebase_url": "https://sao-app-7a72b.firebaseio.com",
+    "project_id": "sao-app-7a72b",
+    "storage_bucket": "sao-app-7a72b.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:141922124189:android:89f8e943c91009f43e2f74",
+        "mobilesdk_app_id": "1:849809861709:android:76f0c6f79d2b265b100004",
         "android_client_info": {
-          "package_name": "com.elisoft.master_norte"
+          "package_name": "com.elisoft.sao"
         }
       },
       "oauth_client": [
         {
-          "client_id": "141922124189-vl8o5kjjvlge09amcl7g7ge0qm42lbot.apps.googleusercontent.com",
+          "client_id": "849809861709-7s59kuqneutc5jt8sbbh4tcqefr0ae23.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBP7Cq82T8Mvm88dCdiTvhaJ2lYPELtrys"
+          "current_key": "AIzaSyD0MspmEdoZKiKH08rrLyJ9FCADW3HYrYI"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "141922124189-vl8o5kjjvlge09amcl7g7ge0qm42lbot.apps.googleusercontent.com",
+              "client_id": "849809861709-7s59kuqneutc5jt8sbbh4tcqefr0ae23.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "849809861709-i24ahphuqr0ihjfe0hs8t2scb2vhvk46.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.elisoft.sao"
+              }
             }
           ]
         }
@@ -36,28 +44,35 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:141922124189:android:17993573ee4564aa3e2f74",
+        "mobilesdk_app_id": "1:849809861709:android:0f4d3b130a28672f100004",
         "android_client_info": {
-          "package_name": "com.elisoft.master_norte_conductor"
+          "package_name": "com.elisoft.sao_conductor"
         }
       },
       "oauth_client": [
         {
-          "client_id": "141922124189-vl8o5kjjvlge09amcl7g7ge0qm42lbot.apps.googleusercontent.com",
+          "client_id": "849809861709-7s59kuqneutc5jt8sbbh4tcqefr0ae23.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBP7Cq82T8Mvm88dCdiTvhaJ2lYPELtrys"
+          "current_key": "AIzaSyD0MspmEdoZKiKH08rrLyJ9FCADW3HYrYI"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "141922124189-vl8o5kjjvlge09amcl7g7ge0qm42lbot.apps.googleusercontent.com",
+              "client_id": "849809861709-7s59kuqneutc5jt8sbbh4tcqefr0ae23.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "849809861709-i24ahphuqr0ihjfe0hs8t2scb2vhvk46.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.elisoft.sao"
+              }
             }
           ]
         }
@@ -65,28 +80,79 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:141922124189:android:12661ac8f4baa32a3e2f74",
+        "mobilesdk_app_id": "1:849809861709:android:7f1b1a8912840e23100004",
+        "android_client_info": {
+          "package_name": "com.elisoft.sao_pedido"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "849809861709-7s59kuqneutc5jt8sbbh4tcqefr0ae23.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0MspmEdoZKiKH08rrLyJ9FCADW3HYrYI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "849809861709-7s59kuqneutc5jt8sbbh4tcqefr0ae23.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "849809861709-i24ahphuqr0ihjfe0hs8t2scb2vhvk46.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.elisoft.sao"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849809861709:android:fecd91a43a7615c2100004",
         "android_client_info": {
           "package_name": "com.elisoft.serere"
         }
       },
       "oauth_client": [
         {
-          "client_id": "141922124189-vl8o5kjjvlge09amcl7g7ge0qm42lbot.apps.googleusercontent.com",
+          "client_id": "849809861709-p64t0n2onofcq26n6ee5t5mjvll7gtsh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.elisoft.serere",
+            "certificate_hash": "e714365ede95d2dbe198858c09c3643b64665ea1"
+          }
+        },
+        {
+          "client_id": "849809861709-7s59kuqneutc5jt8sbbh4tcqefr0ae23.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBP7Cq82T8Mvm88dCdiTvhaJ2lYPELtrys"
+          "current_key": "AIzaSyD0MspmEdoZKiKH08rrLyJ9FCADW3HYrYI"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "141922124189-vl8o5kjjvlge09amcl7g7ge0qm42lbot.apps.googleusercontent.com",
+              "client_id": "849809861709-7s59kuqneutc5jt8sbbh4tcqefr0ae23.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "849809861709-i24ahphuqr0ihjfe0hs8t2scb2vhvk46.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.elisoft.sao"
+              }
             }
           ]
         }
